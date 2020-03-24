@@ -1,0 +1,133 @@
+body {
+  background-color: grey;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0 auto;
+  min-width: 800px;
+  width: 80%;
+  padding-top: 0px;
+}
+
+header {
+  padding: 20px;
+  margin: 20px 20px 20px;
+  text-align: center;
+  background: darkgreen;
+}
+
+main {
+  padding: 20px;
+  margin: 20px 20px 20px 20px;
+  text-align: center;
+  background: darkgreen;
+  color: black;
+  font-size: 20px;
+  text-align: justify;
+  height: 580px;
+}
+
+footer {
+  padding: 20px;
+  margin: 20px 20px 20px 20px;
+  text-align: justify;
+  background: darkgreen;
+  color: black;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 4em;
+  font-family: "Cinzel Decorative", cursive;
+  font-style: solid;
+  text-shadow: 2px 2px 2px greenyellow;
+  text-align: center;
+  color: #2a2a2a;
+  flex: 5;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: "Cinzel Decorative", cursive;
+  text-align: center;
+  color: rgb(59, 6, 6);
+  text-shadow: 2px 2px 2px darkgreen;
+  padding: 10;
+}
+
+p {
+  font-size: 1.6rem;
+  text-align: justify;
+  line-height: 1.5;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  flex: 2;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+  display: flex;
+}
+
+li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+li a {
+  display: inline-block;
+  block-size: 100px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  margin: 10px;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+article {
+  flex: 4;
+  width: 65%;
+  float: left;
+  font-size: 25px;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  background-color: green;
+  height: 540px;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  flex: 1;
+  margin: 10px 10px 10px 10px;
+  background-color: green;
+  padding: 10px;
+  height: 540px;
+}
+
+aside a {
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+aside img {
+  max-width: 100%;
+}
+
+header img {
+  display: block;
+  height: 100px;
+  padding-top: 20.15px;
+}
+
+main {
+  display: flex;
+}
